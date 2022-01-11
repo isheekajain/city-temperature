@@ -2,11 +2,11 @@ City Temperature
 =========================
  
  ### Table of Contents  
-[Description](#desc) 
-[Features](#features) 
-[Setup](#setup)
-[Deplyment to heroku](#deployment to heroku)
-[Reading](#reading)
+* [Description](#desc) 
+* [Features](#features) 
+* [Setup](#setup)
+* [Deployment to heroku](#deployment to heroku)
+* [Reading](#reading)
 
 Description
 ===========
@@ -21,7 +21,7 @@ Features
 
 Setup
 =====
-> NOTE: 1. Add your `API_KEY` in `views.py` that you can generate from (https://openweathermap.org/api)
+> NOTE: 1. Add your `API_KEY` in `views.py` that you can generate from [Open Weather Map](https://openweathermap.org/api)
 >2. Add your email and password in `settings.py`
 1. cd into the repository location in your machine.
 2. Run the requrements `$ pip install -r requirements.txt`
@@ -43,5 +43,7 @@ $ git push heroku master
 
 Reading
 =======
-* (https://pypi.org/project/gunicorn/)
+* [Gunicorn](https://pypi.org/project/gunicorn/)
+* [WhiteNoise](https://pypi.org/project/whitenoise/)
+* [dj-database-url](https://pypi.org/project/dj-database-url/)
 
