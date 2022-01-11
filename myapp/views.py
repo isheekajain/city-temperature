@@ -3,7 +3,8 @@ from django.shortcuts import render
 from .forms import UserForm
 from django.core.mail import send_mail
 
-API_ADDRESS = "https://api.openweathermap.org/data/2.5/weather?appid=5f5b663aac598fdcaa89e79057675078&q="
+API_KEY = "your api key"
+API_ADDRESS = f"https://api.openweathermap.org/data/2.5/weather?appid={API_KEY}&q="
 
 
 # Create your views here.
