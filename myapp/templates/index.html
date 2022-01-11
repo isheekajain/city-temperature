@@ -1,0 +1,26 @@
+<title>Find Temperature</title>
+<form method = "POST" action="add" class="form-horizontal" enctype="multipart/form-data">
+  <h1> Get the temperature of your city</h1>
+  <h5>Please fill the details</h5>
+    {% csrf_token %}
+    <div>
+    <label class="username">Username: </label>
+      {{ form.username }}
+    </div>
+    <br>
+
+  <div>
+    <label class="email">Email address: </label>
+    {{ form.email }}
+  </div>
+  <br>
+
+  <div>
+    <label class="city">City: </label>
+    {{ form.city }}
+  </div>
+  <br>
+
+  <button type = "submit" class="btn btn-primary text-center m-2">Submit</button>
+
+</form>
