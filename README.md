@@ -6,7 +6,6 @@ City Temperature
 [Features](#features) 
 [Setup](#setup)
 
-<a name="desc"/>
 Description
 ===========
 city-temperature is a web application built with Django that fetches temperature from the Open Weather Map API and then sends an email providing the temperature of particular city.
