@@ -5,7 +5,7 @@ City Temperature
 * [Description](#desc) 
 * [Features](#features) 
 * [Setup](#setup)
-* [Deployment to heroku](#deployment to heroku)
+* [Deployment to heroku](#deployment)
 * [Reading](#reading)
 
 Description
