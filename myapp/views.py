@@ -26,7 +26,7 @@ def sending_mail(request):
     # weather = json_data['weather'][0]['description']
 
     if form.is_valid():
-        form.save()
+        # form.save()
 
         if weather_id >= 200:
             icon = '⛈'
