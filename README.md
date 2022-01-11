@@ -2,15 +2,16 @@ City Temperature
 =========================
  
  ### Table of Contents  
-[Description](#desc)  
+[Description](#desc) 
 [Features](#features) 
 [Setup](#setup)
+[Deplyment to heroku](#deployment to heroku)
+[Reading](#reading)
 
 Description
 ===========
 city-temperature is a web application built with Django that fetches temperature from the Open Weather Map API and then sends an email providing the temperature of particular city.
 
-<a name="features"/>
 Features
 ========
 * Production-ready configuration for Static Files, Database Settings, Gunicorn, etc.
@@ -18,7 +19,6 @@ Features
 * Latest Python 3.6 runtime environment.
 * Configure SMTP servers.
 
-<a name="setup"/>
 Setup
 =====
 > NOTE: 1. Add your `API_KEY` in `views.py` that you can generate from (https://openweathermap.org/api)
@@ -28,4 +28,20 @@ Setup
 3. Migrations `$ python manage.py migrate`
 4. Run the server `$ python manage.py runserver`
 
+Deployment to heroku
+====================
+```
+$ git init
+$ git add .
+$ git commit -m "Initial commit"
+
+$ heroku login
+$ heroku keys:add
+$ heroku create
+$ git push heroku master
+```
+
+Reading
+=======
+* (https://pypi.org/project/gunicorn/)
 
