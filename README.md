@@ -23,7 +23,7 @@ Setup
 > NOTE: 1. Add your `API_KEY` in `views.py` that you can generate from [Open Weather Map](https://openweathermap.org/api)
 >2. Add your email and password in `settings.py`
 1. cd into the repository location in your machine.
-2. Run the requrements `$ pip install -r requirements.txt`
+2. Run the requirements `$ pip install -r requirements.txt`
 3. Migrations `$ python manage.py migrate`
 4. Run the server `$ python manage.py runserver`
 
